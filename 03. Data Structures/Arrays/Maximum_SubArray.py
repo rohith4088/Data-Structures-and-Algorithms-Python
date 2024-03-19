@@ -57,3 +57,6 @@ print(kadane(array))
 #This way, maxarray stores the maximum subarray ending at index i
 #And the variable maximum stores the maximum among all the maxarrays ending at every index, effectively storing the global maximum
 # Since this requires only one for loop, the time complexity is an efficiently O(n)!
+
+
+

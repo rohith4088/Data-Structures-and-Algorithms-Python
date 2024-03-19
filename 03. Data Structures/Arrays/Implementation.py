@@ -20,8 +20,8 @@ class my_array():
         return self.data[index] #This method takes in the index of the element as a parameter and returns the corresponding element in O(1) time.
 
     def push(self, item):
-        self.length += 1
-        self.data[self.length - 1] = item #Adds the item provided to the end of the array
+        self.data[self.length] = item # Adds the item provided to the end of the array
+        self.length += 1 # Increases the length of the array after pushing the element
 
     def pop(self):
         last_item = self.data[self.length-1] #Collects the last element
@@ -75,3 +75,9 @@ print(arr.get(1))
 
 print(arr)
 #The outputs given after each function call are the outputs obtained by calling print(arr) and not by the function calls themselves
+
+
+
+
+
+

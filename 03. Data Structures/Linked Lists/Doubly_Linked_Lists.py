@@ -142,7 +142,6 @@ class DoublyLinkedList():
         self.length -= 1
         return
 
-
 #I'll create a Doubly linked list and call all its methods in the same sequence as I did in the Singly Linked List implementation
 #The answers should come out to be the same
 my_linked_list = DoublyLinkedList()
